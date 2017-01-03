@@ -3,4 +3,8 @@ class ApplicationController < ActionController::Base
   def hello
       render html: "Welcome to weblineindia"
   end
+
+  def test
+      render html: "This is basic section of url route test"
+  end
 end
